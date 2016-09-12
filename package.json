@@ -1,0 +1,41 @@
+{
+  "name": "grunt-pie-vulcanize",
+  "description": "A Grunt plugin to Vulcanize a PIE",
+  "version": "0.1.0",
+  "homepage": "https://github.com/PieLabs/grunt-pie-vulcanize",
+  "author": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PieLabs/grunt-pie-vulcanize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PieLabs/grunt-pie-vulcanize/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/PieLabs/grunt-pie-vulcanize/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "tmp": "0.0.28",
+    "vulcanize": "^1.14.8"
+  },
+  "private": true
+}
